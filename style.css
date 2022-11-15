@@ -89,13 +89,3 @@ body {
     opacity: 0.7;
     cursor: pointer;
 }
-#profile-card .footer a {
-    text-align: center;
-    font-size: 1.2em;
-    font-weight: bold;
-    padding: 5px 0;
-}
-#profile-card .footer a:hover {
-    color: white;
-    cursor: pointer;
-}
