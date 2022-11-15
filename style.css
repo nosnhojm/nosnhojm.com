@@ -2,9 +2,10 @@
 
 :root {
     --font-color-default: #222;
-    --font-color-accent: #345995;
+    --font-color-accent: #58A1FF;
+    --footer-background: radial-gradient(circle, rgba(89,162,255,1) 30%, rgba(81,145,226,1) 100%);
     --border-radius: 20px;
-    --box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+    --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 * {
   margin: 0;
@@ -18,13 +19,14 @@ body {
   height: 100vh;
   font-family: "Roboto", arial, sans-serif;
   color: #222;
+  background: #F5F4F4;
 }
 #profile-card {
   height: 300px;
   width: 500px;
   padding: 20px;
   border-radius: var(--border-radius);
-  background: var(--profile-card-bg);
+  background: white;
   position: relative;
   box-shadow: var(--box-shadow);
   }
@@ -44,6 +46,7 @@ body {
     font-family: "Roboto", arial, sans-serif;
     font-weight: bold;
     text-align: center;
+    margin-top: 5px;
     margin-bottom: 30px;
     color: var(--font-color-accent);
   }
@@ -72,10 +75,11 @@ body {
     border: none;
     outline: 0;
     display: inline-block;
-    background: radial-gradient(circle, rgba(107,141,198,1) 0%, rgba(52,89,149,1) 100%);
+    background: var(--footer-background);
     color: white;
     font-size: 1.1em;
     font-weight: bold;
+    letter-spacing: 1px;
     width: 100%;
     position: absolute;
     bottom: 0;
